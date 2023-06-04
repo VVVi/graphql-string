@@ -2,7 +2,7 @@
 
 ## Description
 
-A simple module for avoiding duplicated fragments.
+graphql-string is an essential npm module designed to simplify the process of avoiding duplicated fragments in GraphQL when used as strings. With its intuitive functionality, graphql-string empowers developers to eliminate redundant code fragments efficiently, ensuring clean and optimized GraphQL queries.
 
 ## Installation
 
