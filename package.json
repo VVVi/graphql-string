@@ -1,8 +1,8 @@
 {
   "name": "graphql-string",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.2",
+  "description": "graphql-string",
+  "main": "./dist/graphql-string.js",
   "scripts": {
     "build": "rm dist/*; tsc",
     "test": "jest --config jestconfig.json",
@@ -22,6 +22,7 @@
     "deduplicate"
   ],
   "author": "",
+  "repository": "VVVi/graphql-string",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.2",
