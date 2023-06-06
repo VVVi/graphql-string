@@ -1,10 +1,11 @@
 {
   "name": "graphql-string",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "graphql-string",
-  "main": "./dist/graphql-string.js",
+  "main": "lib/graphql-string.js",
+  "types": "lib/graphql-sting.d.ts",
   "scripts": {
-    "build": "rm dist/*; tsc",
+    "build": "rm lib/*; tsc",
     "test": "jest --config jestconfig.json",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint ./src --ext .ts",

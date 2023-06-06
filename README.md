@@ -12,7 +12,10 @@ $ npm i graphql-string
 
 ## Usage
 
+Use template literal 'gqls' as below:
 ```javascript
+
+import gqls from 'graphql-string';
 
 const comparisonFields = gqls`
   fragment comparisonFields on Character {
@@ -33,4 +36,25 @@ const query = gqls`{
     ...comparisonFields
   }
 }`;
+```
+
+## Use cases
+
+Could be used for pretty simple graphql queries and fragments 
+as strings. Is good to use within NextJS Fetch function. 
+
+For complex queries is recommended to use graphql-tag package, like:
+```
+import gql from 'graphql-tag';
+import { print } from 'graphql/language/printer';
+
+const ast = gql`
+  ${someFragment}
+  {
+    data() {
+      ...Data
+    }
+  }
+`
+const query = print(ast);
 ```
