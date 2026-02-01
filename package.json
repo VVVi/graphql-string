@@ -1,6 +1,6 @@
 {
   "name": "graphql-string",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "graphql-string",
   "main": "lib/graphql-string.js",
   "types": "lib/graphql-sting.d.ts",
