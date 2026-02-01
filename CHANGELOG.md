@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.5](https://github.com/VVVi/graphql-string/compare/v0.0.4...v0.0.5) (2026-02-01)
+
+
+### Miscellaneous Chores
+
+* release 0.0.5 ([1d260db](https://github.com/VVVi/graphql-string/commit/1d260dbcc9c5ab1ba08c6ffda9c7f826983cd804))
+
 ## [0.0.4](https://github.com/VVVi/graphql-string/compare/v0.0.3...v0.0.4) (2026-02-01)
 
 
