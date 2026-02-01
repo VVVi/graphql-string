@@ -1,6 +1,19 @@
 {
+  "preset": "ts-jest",
+  "testEnvironment": "node",
   "transform": {
-    "^.+\\.(t|j)sx?$": "ts-jest"
+    "^.+\\.tsx?$": [
+      "ts-jest",
+      {
+        "tsconfig": {
+          "target": "es2018",
+          "lib": ["es2018", "dom"],
+          "module": "es2015",
+          "esModuleInterop": true,
+          "skipLibCheck": true
+        }
+      }
+    ]
   },
   "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
   "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]

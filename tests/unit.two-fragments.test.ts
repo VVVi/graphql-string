@@ -1,5 +1,3 @@
-import { describe, it, expect } from '@jest/globals';
-
 import gqls from '../src/graphql-string';
 
 describe('graphql string import', () => {
