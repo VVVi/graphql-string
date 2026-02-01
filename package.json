@@ -40,6 +40,8 @@
     "typescript-eslint": "^8.54.0"
   },
   "files": [
-    "lib/**/*"
+    "lib/",
+    "README.md",
+    "LICENSE"
   ]
 }
